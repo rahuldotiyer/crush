@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^getvocado\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.getvocado\.com$
+RewriteRule ^/?$ "http\:\/\/rahuliyer\.io\/Vocado\/" [R=301,L]
+
